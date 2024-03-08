@@ -1,0 +1,10 @@
+.trending{
+    margin: 3% 0%;
+
+}
+
+.trending h1{
+    margin:0% 0% 4% ;
+    text-align: center;
+    color: var(--paragraph-color);
+}

@@ -1,0 +1,32 @@
+.React-slide{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+
+.slick-next:before{
+    margin-right: 15px;
+}
+
+.slick-dots{
+    display: none !important;
+}
+.slick-track{
+    width: 100vw;
+}
+
+.slick-prev,.slick-next{
+    background-color: var(--word-color);
+    border-radius: 8px;
+}
+.slick-prev,.slick-next::after{
+    background-color: var(--word-color);
+    border-radius: 8px;
+}
+
+.slick-prev::before,.slick-next::before{
+    background-color: var(--word-color) !important;
+    border-radius: 8px;
+}
+

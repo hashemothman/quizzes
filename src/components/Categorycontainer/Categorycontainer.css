@@ -1,0 +1,24 @@
+.zh-ca-container{
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh; */
+    /* background-color: var(--heading-color); */
+    border-radius: 25px;
+    background-color: #d9c2c216;
+}
+
+.zh-ca-container h1{
+    color: var(--pargraph-color);
+    margin:3% 0;
+    text-align: center;
+}
+
+.zh-ca-inner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
