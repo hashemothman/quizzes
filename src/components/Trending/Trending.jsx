@@ -10,7 +10,7 @@ const Trending = () => {
                 <meta charSet="utf-8" />
                 <title>Rob.Quiz website</title>
                 <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+      </Helmet>
         <h1>Trending</h1>
         <Cardslide img={newsimg}
             title="zhraa"

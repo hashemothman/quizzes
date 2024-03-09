@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Navbar = () => {
   return (
-    
+   <div className="navbar">
     <nav className='zh-nav'>
       <input type='checkbox' id='check'/>
       <label for='check' className='checkbtn'>
@@ -19,6 +19,8 @@ const Navbar = () => {
       <li><Link to='/' className='zh-login-btn'>تسجيل دخول</Link></li>
       </ul>
     </nav>
+    </div>
+    
   )
 }
 
