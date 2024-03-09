@@ -9,9 +9,9 @@ const Hero = () => {
             <h1>Quiz Time</h1>
           </div>
           <h5>The chalets, 300 meters west of the hotel building,
-       were designed with an overlay similar to the stone walls separating the lands and orchards in the mountainous
- areas, which are known in the spoken language in the project area as “Al-Ra’ousha”.
-  With the help of 70 workers from the people of the neighboring villages</h5>
+                were designed with an overlay similar to the stone walls separating the lands and orchards in the mountainous
+          areas, which are known in the spoken language in the project area as “Al-Ra’ousha”.
+            With the help of 70 workers from the people of the neighboring villages</h5>
         </div>
 
         <div className='zh-hero-img'>

@@ -2,14 +2,18 @@
 
 .promotion{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 4% 0%;
+    margin: 4% auto;
+    flex-direction: row-reverse;
+    width:85%;
 }
 
 .promotion .promotion-content{
     width: 40vw;
     text-align: start;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -38,6 +42,9 @@
     border-radius: 8px;
     padding: 1em;
     text-align: center;
+    width:25%;
+    align-self: flex-end;
+    margin-top: 20px;
 }
 
 .promotion .promotion-content button:hover{

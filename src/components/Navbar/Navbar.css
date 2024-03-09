@@ -1,9 +1,13 @@
-.zh-nav{
-    background-color: var(--main-color);
+.navbar{
+	background-color: var(--main-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
 	height: 80px;
+}
+.zh-nav{
+    width:85%;
+	margin: 0 auto;
 	
 }
 
@@ -20,6 +24,7 @@
 
 .zh-nav .zh-nav-elements{
 	 margin: 0;
+	 padding-top: 10px;
  }  
 
 
