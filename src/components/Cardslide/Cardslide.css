@@ -17,16 +17,25 @@
 }
 
 .slick-prev,.slick-next{
-    background-color: var(--word-color);
+    color: var(--main-color);
     border-radius: 8px;
+    width: 20px;
+}
+.slick-prev{
+    margin-left: -20px !important;
+}
+.slick-next{
+    margin-right: -20px !important;
 }
 .slick-prev,.slick-next::after{
-    background-color: var(--word-color);
+    color: var(--main-color);
     border-radius: 8px;
+    width: 20px;
 }
 
 .slick-prev::before,.slick-next::before{
-    background-color: var(--word-color) !important;
+    color: var(--main-color) ;
     border-radius: 8px;
+    width: 20px;
 }
 
