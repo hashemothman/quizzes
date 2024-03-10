@@ -45,7 +45,6 @@ const Home = () => {
       <Categorycontainer/>
       <Trending/>
       <Container/>
-      <Footer/>
     </>
   )
 }
