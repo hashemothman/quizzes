@@ -13,8 +13,8 @@ const Navbar = () => {
       </label>
       <label className='logo'>Rob.<span>Quiz</span></label>
       <ul className='zh-nav-elements'>
-      <li><Link to='/quizzes' >الصفحة الرئيسية</Link></li>
-      <li><Link to='/'>الفئات</Link></li>
+      <li><Link to='/' >الصفحة الرئيسية</Link></li>
+      <li><Link to='/category'>الفئات</Link></li>
       <li><Link to='/'>الاختبارات الاكثر لعب</Link></li>
       <li><Link to='/' className='zh-login-btn'>تسجيل دخول</Link></li>
       </ul>
