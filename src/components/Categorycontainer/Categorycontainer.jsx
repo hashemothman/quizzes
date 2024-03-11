@@ -13,6 +13,19 @@ const Categorycontainer = () => {
         <Categories/>
         <Categories/>
         <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
+        <Categories/>
         </div>
     </div>
 

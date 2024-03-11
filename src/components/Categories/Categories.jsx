@@ -1,16 +1,15 @@
 import './Categories.css'
-import categoryimg from './../../assets/images/19197156.jpg'
+import categoryimg from './../../assets/images/heroimg.jpg'
 import { Link } from 'react-router-dom'
 const Categories = () => {
   return (
     <div className='zh-category'>
-      <div className='box'>
-        <div className='content'>
-          <img src={categoryimg}/>
-          <h2>Quiz Time<br/><span>Let's start</span></h2>
-          <Link to='/'>Click</Link>
-        </div>
-      </div>
+          <Link to='/'>
+            <div className="ha-category-content">
+            <img src={categoryimg} alt="" />
+            <h3>Category Name</h3>
+            </div>
+          </Link>
     </div>
   )
 }
