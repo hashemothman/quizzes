@@ -38,4 +38,12 @@
     border-radius: 8px;
     width: 20px;
 }
+@media (max-width:500px) {
+    .slick-prev{
+        margin-left: 0px !important;
+    }
+    .slick-next{
+        margin-right: 0px !important;
+    }
+}
 
