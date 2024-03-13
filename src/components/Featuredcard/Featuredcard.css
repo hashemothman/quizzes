@@ -14,9 +14,14 @@
     justify-content: space-between;
     margin-bottom: 50px;
     z-index: 99;
-} */
+}
+. */
+.ha-link{
+    width: 27%;
+    text-decoration: none;
+}
  .zh-smcard{
-    width: 27.9%;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 1.43rem 1.43rem ;
     box-shadow:.1rem .1rem #0000001A ;
@@ -160,7 +165,7 @@
     }
 
      .zh-smcard{
-        width: 19.5rem;
+        width: 100%;
         margin-top: 3%;
     }
 
