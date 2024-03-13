@@ -87,14 +87,12 @@ const Quiz = () => {
         setResult(false);
         setTime(4);
     }
-    // var timer = time;
-    //     if (timer<=0) {
-    //          let timeup=document.querySelector('.zh-container-quiz');
-    //         timer.classList.remove("zh-container-quiz")
-    //     }
+    
     
     
   return (
+
+    //start quiz
     <div className='zh-container-quiz'>
         
         {result?<></>:<>
