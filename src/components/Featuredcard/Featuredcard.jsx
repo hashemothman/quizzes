@@ -1,9 +1,11 @@
 import './Featuredcard.css'
+import { Link } from 'react-router-dom'
 
 const Featuredcard = (props) => {
     // const class1 = "zh-smcards-container"
   return (
     // <div className={props.class || class1 }>
+    <Link to='/category/test' className='ha-link'>
     <div className='zh-smcard'>
         <div className='zh-smcard-img'>
             <img className='zh-img-bigscreen' src={props.smcardimg1}/>
@@ -22,7 +24,9 @@ const Featuredcard = (props) => {
     </div>
     
     
-    // </div>
+  
+    </Link>
+    
   )
 }
 

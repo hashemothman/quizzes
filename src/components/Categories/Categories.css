@@ -45,11 +45,17 @@ width:70%;
         width:30%;
     }
     .ha-category-content h3{
-      
         font-size: 8px;
-
     }
     
+}
+@media (max-width:700px){
+    .ha-category-content h3{
+        font-size: 8px;
+    }
+    .zh-ca-inner{
+        gap: 10px;
+    }
 }
 
 
