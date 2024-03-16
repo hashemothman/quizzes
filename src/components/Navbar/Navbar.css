@@ -6,18 +6,22 @@
 	height: 80px;
 }
 .zh-nav{
-    width:85%;
+    width:100%;
 	margin: 0 auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
 	
 }
 
  .zh-nav label{
     font-size: xx-large;
     font-weight: 700;
+	color: var(--word-color);
 }
 
 .zh-nav label span{
-    color: var(--word-color);
+    color: #fff;
 }
 
 
@@ -89,10 +93,32 @@
   }
   
   @media (max-width: 858px){
+	.zh-nav{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.navbar .zh-nav form{
+		margin-left: 5%;
+	}
+
+	.form-control{
+		width: 95%;
+	}
+
+	
+
 	.checkbtn{
 	  display: block;
+	  margin-left: 5%;
 	}
-  
+	
+	.checkbtn svg{
+		color: #fff;
+	}
+
 	ul{
 	  position: fixed;
 	  width: 100%;

@@ -1,0 +1,35 @@
+.zh-newquiz{
+    /* width: 23%; */
+
+}
+
+/* .zh-newquiz-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; 
+    margin-top: 3%;
+    width: 100%;
+}
+
+.zh-newquiz-card .zh-newquiz-img{
+    width: 100%;
+}
+
+.zh-newquiz-card img{
+
+    border-radius: 8px;
+    width: 100%;
+}
+
+.zh-newquiz-body{
+    width: 63%;
+} */
+
+.zh-newquiz .card{
+    display: flex;
+        flex-wrap: wrap;
+        margin-top: 4%;
+        border: none;
+        box-shadow: -2px -2px rgba(0, 0, 0, 0.263);
+}

@@ -24,57 +24,52 @@ const Tests = () => {
     </Form>
     </div>
         <div className="ha-container-test">
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Some quick example text to build on the card 
         </Card.Text>
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Some quick example text to build on the card 
         </Card.Text>
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Some quick example text to build on the card 
         </Card.Text>
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Some quick example text to build on the card 
         </Card.Text>
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Some quick example text to build on the card 
         </Card.Text>
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
