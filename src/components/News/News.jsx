@@ -6,6 +6,7 @@ const News = (props) => {
 
     
     <div className='promotion'>
+      
      <Helmet>
                 <meta charSet="utf-8" />
                 <title>Rob.Quiz website</title>
@@ -17,7 +18,7 @@ const News = (props) => {
 
             <p>{props.desc}</p>
 
-            <button>{props.btn}</button>
+            {/* <button>{props.btn}</button> */}
         </div>
 
         <div className='promotion-img'>

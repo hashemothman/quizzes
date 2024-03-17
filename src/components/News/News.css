@@ -2,7 +2,7 @@
 
 .promotion{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 4% auto;
     flex-direction: row-reverse;

@@ -14,7 +14,7 @@ const Footer = () => {
                 <img src={instaicon}/>
             </div>
         </div>
-        <div className='footertwo'>
+        {/* <div className='footertwo'>
         <h3>Company</h3>
             <p>AboutUs</p>
             <p>Careers</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             <p>Los Angelas</p>
             <p>Las Vegas</p>
             <p>Torronto</p>
-        </div>
+        </div> */}
         
     </div>
     
