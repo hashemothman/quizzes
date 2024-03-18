@@ -117,7 +117,20 @@
 .zh-btn-text-quiz{
     display: flex;
     align-items: center;
+    /* position: absolute;
+    top: 37em;
+    z-index: 6;
+    left: 23%; */
+    
 }
+
+@media (max-width:1024px){
+    .zh-btn-text-quiz button{
+        padding: 2%;
+        font-size: large;
+    }
+}
+
 
 @media (max-width:909px){
     .zh-container-quiz h2{
@@ -149,10 +162,13 @@
         /* margin-top: 10%; */
         top: -5%;
         left: 0;
-        background-color: #fff;
+        background-color: transparent;
         height: 21em;
         
         z-index: 6;
+    }
+    .zh-btn-text-quiz{
+        margin-top: 60%;
     }
 }
 
