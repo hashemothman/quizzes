@@ -1,4 +1,7 @@
 import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './TestStyle.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -6,10 +9,46 @@ import img from '../../assets/images/images.png'
 import { Link } from 'react-router-dom';
 import Pagination from 'react-bootstrap/Pagination';
 import Form from 'react-bootstrap/Form'
-
+import Newquiz from '../Newquiz/Newquiz';
+import Newquizslide from './../Newquizslide/Newquizslide'
 
 
 const Tests = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    autoplay:false,
+    autoplayspeed:2,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 5
+          }
+        }
+      ]
+  };
   return (
     <div>
          <div className="hero-test">
@@ -23,7 +62,7 @@ const Tests = () => {
       </Form.Group>
     </Form>
     </div>
-        <div className="ha-container-test">
+        {/* <div className="ha-container-test">
         <Card style={{ width: '10rem' }}>
       <Card.Img variant="top p-3" src={img} />
       <Card.Body>
@@ -74,7 +113,22 @@ const Tests = () => {
         <Button variant="primary" className='ha-button'><Link to='/quizpage'> Go Quizze</Link></Button>
       </Card.Body>
     </Card>
+        </div> */}
+        {/* <Newquizslide/> */}
+        <div className='React-slide'>
+        <Slider {...settings}>
+        <div>
+        <Newquiz />
         </div>
+        <Newquiz/>
+        <Newquiz />
+        <Newquiz/>
+        <Newquiz/>
+        <Newquiz/>
+        <Newquiz/>
+    
+  </Slider>
+    </div>
         <div className="ha-pagination">
     <Pagination>
       <Pagination.First />

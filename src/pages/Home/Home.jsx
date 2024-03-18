@@ -11,6 +11,7 @@ import Categories from '../../components/Categories/Categories'
 import Categorycontainer from '../../components/Categorycontainer/Categorycontainer'
 import Newquiz from '../../components/Newquiz/Newquiz'
 import Newquizcontainer from '../../components/Newquizcontainer/Newquizcontainer'
+import Newquizslide from '../../components/Newquizslide/Newquizslide'
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
 
 
       <Newquizcontainer/>
+      {/* <Newquizslide/> */}
       
       {/* <News title='Promotion'
             title2='We Provide You Best Europe Sightseeing Tours'
