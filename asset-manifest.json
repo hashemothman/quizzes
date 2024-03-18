@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/quizzes/static/css/main.8b86e2b8.css",
-    "main.js": "/quizzes/static/js/main.f3fcb5d7.js",
+    "main.css": "/quizzes/static/css/main.96e923c2.css",
+    "main.js": "/quizzes/static/js/main.e716e42a.js",
     "static/js/453.08de2d97.chunk.js": "/quizzes/static/js/453.08de2d97.chunk.js",
     "static/media/19197156.jpg": "/quizzes/static/media/19197156.d4e66018054fda97702c.jpg",
     "static/media/pedro-monteiro-HfIex7qwTlI-unsplash.jpg": "/quizzes/static/media/pedro-monteiro-HfIex7qwTlI-unsplash.9add98f563baebf394cb.jpg",
-    "static/media/olav-ahrens-rotne-jvBXiynINGE-unsplash (2).jpg": "/quizzes/static/media/olav-ahrens-rotne-jvBXiynINGE-unsplash (2).9d9e03f9c8009bb4fefa.jpg",
     "static/media/heroimg.jpg": "/quizzes/static/media/heroimg.f539094129b0e0ed12c9.jpg",
     "static/media/categoryhero.png": "/quizzes/static/media/categoryhero.360602b095dcb5c10bff.png",
     "static/media/quiz.png": "/quizzes/static/media/quiz.304eb910f93a9b8c7dec.png",
@@ -16,12 +15,12 @@
     "static/media/slick.woff": "/quizzes/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/quizzes/index.html",
     "static/media/YouTube-Icon-Full-Color-Logo.wine.svg": "/quizzes/static/media/YouTube-Icon-Full-Color-Logo.wine.d51475162e7c5e40f4daf744572f4aae.svg",
-    "main.8b86e2b8.css.map": "/quizzes/static/css/main.8b86e2b8.css.map",
-    "main.f3fcb5d7.js.map": "/quizzes/static/js/main.f3fcb5d7.js.map",
+    "main.96e923c2.css.map": "/quizzes/static/css/main.96e923c2.css.map",
+    "main.e716e42a.js.map": "/quizzes/static/js/main.e716e42a.js.map",
     "453.08de2d97.chunk.js.map": "/quizzes/static/js/453.08de2d97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b86e2b8.css",
-    "static/js/main.f3fcb5d7.js"
+    "static/css/main.96e923c2.css",
+    "static/js/main.e716e42a.js"
   ]
 }
