@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react'
-import './Quiz.css'
+import React, { useEffect, useState ,useRef} from 'react'
 import {data }from './../../assets/data'
+import './../Quiz/Quiz.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-const Quiz = () => {
+const Multichoise = () => {
     let [index,setIndex]=useState (0);
     let [question,setQuestion]=useState(data[index]);
     let [lock,setLock]=useState(false);
@@ -51,14 +51,13 @@ const Quiz = () => {
         if (lock=== false) {
             if (question.ans===ans){
                 e.target.classList.add("correct");
-                setLock(true);
+                // setLock(true);
                 setScore(prev=>prev+1)
             }
             else{
-                // e.target.classList.add("wrong")
-                e.target.classList.add("wrong")
-                setLock(true);
-                option_array[question.ans-1].current.classList.add("correct")
+                e.target.classList.add("correct")
+                // setLock(true);
+                // option_array[question.ans-1].current.classList.add("correct")
             } 
         }
 
@@ -66,7 +65,7 @@ const Quiz = () => {
         
     }
     const next = ()=>{
-        if (lock===true) {
+        if (lock===false) {
             if (index ===data.length-1) {
                 setResult(true);
                 return 0;
@@ -90,20 +89,24 @@ const Quiz = () => {
         setResult(false);
         setTime(4);
     }
-    
-    
-    
   return (
-
-
-    <div className='zh-container-quiz'>
+     //start quiz
+     <div className='zh-container-quiz'>
         
-        {result?<></>:<>
-        <div className='zh-timer'>
-        <p>Time {time}</p>
-        </div>
-        <h2>{index+1}. {question.question}</h2>
-        {/* <ul className='zh-ul'>
+     {result?<></>:<>
+     <div className='zh-timer'>
+     <p>Time {time}</p>
+     </div>
+     <h2>{index+1}. {question.question}</h2>
+     {/* <ul className='zh-ul'>
+         <li ref={Option1} onClick={(e)=>{checkAns (e,1)}}>{question.option1}</li>
+         <li ref={Option2} onClick={(e)=>{checkAns (e,2)}}>{question.option2}</li>
+         <li ref={Option3} onClick={(e)=>{checkAns (e,3)}}>{question.option3}</li>
+         <li ref={Option4} onClick={(e)=>{checkAns (e,4)}}>{question.option4}</li>
+     </ul> */}
+
+
+     <ul className='zh-ul'>
             <div>
             <FontAwesomeIcon icon={faCircleCheck} /><li ref={Option1} onClick={(e)=>{checkAns (e,1)}}>{question.option1}</li>
             </div>
@@ -116,32 +119,40 @@ const Quiz = () => {
             <div>
             <FontAwesomeIcon icon={faCircleCheck} /> <li ref={Option4} onClick={(e)=>{checkAns (e,4)}}>{question.option4}</li>
             </div>
-        </ul> */}
+        </ul>
+     <div className='zh-btn-text-quiz'>
+     <button onClick={next}>Next Question</button>
+     <div className='zh-index'>{index+1} of {data.length} qustions</div>
+     </div>
+     </>}
+     {result?<>
+         <div className='zh-score-quiz'>
+         {/* <h3>You scored {score} out of {data.length}</h3> */}
+     <button onClick={reset} className='reset'>Reset</button>
+         </div>
+     </>:<></>}
+     {/* {time<=0?<>
 
-        <ul className='zh-ul'>
+       <div className='zh-timer'>
+       
+     <p>Time {time}</p>
+     </div>
+     <h2>{index+1}. {question.question}</h2>
+     <ul className='zh-ul'>
          <li ref={Option1} onClick={(e)=>{checkAns (e,1)}}>{question.option1}</li>
          <li ref={Option2} onClick={(e)=>{checkAns (e,2)}}>{question.option2}</li>
          <li ref={Option3} onClick={(e)=>{checkAns (e,3)}}>{question.option3}</li>
          <li ref={Option4} onClick={(e)=>{checkAns (e,4)}}>{question.option4}</li>
      </ul>
-        <div className='zh-btn-text-quiz'>
-        <button onClick={next}>Next Question</button>
-        <div className='zh-index'>{index+1} of {data.length} qustions</div>
-        </div>
-        </>}
-        {result?<>
-            <div className='zh-score-quiz'>
-            <h3>You scored {score} out of {data.length}</h3>
-        <button onClick={reset} className='reset'>Reset</button>
-            </div>
-        </>:<></>}
-        
-    </div>
+     <button onClick={next}>Next Question</button>
+     <div className='zh-index'>{index+1} of {data.length} qustions</div>
+       <div className='zh-score-quiz'>
+       <h3>You Lose</h3>
+       <button onClick={reset} className='reset'>Reset</button>
+       </div>
+     </>:<></>} */}
+ </div>
   )
 }
 
-export default Quiz
-
-
-
-
+export default Multichoise

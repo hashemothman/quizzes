@@ -28,18 +28,30 @@
     padding: 5%;
     border-radius: 8px;
     text-align: center;
-    z-index: 5;
+    z-index: 3;
     border: 1px solid #097bed54;
 
 }
 
 .zh-container-quiz .zh-ul{
-    margin-top: 7%;
-
+    margin-top: 5%;
 }
+
+.zh-container-quiz .zh-ul div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zh-container-quiz .zh-ul svg{
+    color:#ffbe00
+}
+
+
 
 .zh-container-quiz ul li{
     display: flex;
+    width: 100%;
     align-items: center;
     height: 10vh;
     padding-left: 2%;
@@ -71,6 +83,7 @@
 
 .correct{
     background: rgb(62, 200, 27);
+    /* background: rgba(28, 201, 245, 0.518); */
     border-color: #fff;
 }
 
@@ -101,7 +114,7 @@
     background-color: var(--main-color);
     border-radius: 20px;
     position: absolute;
-    z-index: 99;
+    z-index: 4;
     left: 40%;
     top: -1%;
     text-align: center;
@@ -117,7 +130,20 @@
 .zh-btn-text-quiz{
     display: flex;
     align-items: center;
+    /* position: absolute;
+    top: 37em;
+    z-index: 6;
+    left: 23%; */
+    
 }
+
+@media (max-width:1024px){
+    .zh-btn-text-quiz button{
+        padding: 2%;
+        font-size: large;
+    }
+}
+
 
 @media (max-width:909px){
     .zh-container-quiz h2{
@@ -138,6 +164,9 @@
         padding: 1.5%;
         
     }
+    .zh-btn-text-quiz{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width:858px){
@@ -146,10 +175,14 @@
         /* margin-top: 10%; */
         top: -5%;
         left: 0;
-        background-color: #fff;
+        background-color: transparent;
         height: 21em;
-        z-index: -1;
+        
+        z-index: 6;
     }
+    /* .zh-btn-text-quiz{
+        margin-top: 60%;
+    } */
 }
 
 @media (max-width:600px){
@@ -172,6 +205,18 @@
         width: 50%;
     font-size: 1em;
     }
+
+    .zh-container-quiz .zh-ul{
+        height: 10em;
+    }
+
+    .zh-container-quiz .zh-ul li{
+        width: 80%;
+        padding: 4%;
+        height: 5vh;
+        font-size: .7em;
+        
+    }
 }
 
 @media (max-width:460px){
@@ -180,18 +225,34 @@
         
     }
     .zh-container-quiz button{
-        width: 63%;
+        width: 50%;
     font-size: 1em;
-    padding: 0%;
+    padding: 2%;
+
+
     }
     .zh-container-quiz{
         top: 80%;
+        width: 70% !important;
     }
 
     .zh-timer{
         font-size: .5em;
-        top: -1.8%;
+        top: -4.8%;
     }
 
+    .zh-container-quiz .zh-ul{
+        height: 10em;
+    }
+
+    .zh-container-quiz .zh-ul li{
+        width: 80%;
+        padding: 4%;
+        height: 5vh;
+        font-size: .7em;
+        
+    }
+
+    
 }
 
